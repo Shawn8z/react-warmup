@@ -10,11 +10,9 @@ function App() {
     <div>
       <MainNavigation />
       <Routes>
-
         <Route path="/" element={<AllMeetupsPage />}></Route>
         <Route path="/new-meetup" element={<NewMeetupsPage />}></Route>
         <Route path="/favorites" element={<FavoritesPage />}></Route>
-
       </Routes>
     </div>
   )
